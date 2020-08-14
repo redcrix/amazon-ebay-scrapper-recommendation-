@@ -528,8 +528,8 @@ def scrap():
 
             mn = ebay(product_name, price, price2)
             import smtplib  # mail
-            gmailaddress = 'divyamdogra@gmail.com'
-            gmailpassword = 'qpmdybxutdoygrhf'
+            gmailaddress = ''   #add your own email
+            gmailpassword = ''
             mailto = mail
             sub = 'Recommendation Result'
             body = mn
@@ -546,8 +546,8 @@ def scrap():
 
             mn = amazon(product_name, price, price2)
             import smtplib  # mail
-            gmailaddress = 'divyamdogra@gmail.com'
-            gmailpassword = 'qpmdybxutdoygrhf'
+            gmailaddress = ''
+            gmailpassword = ''
             mailto = mail
             sub = 'Recommendation Result'
             body = mn
@@ -565,8 +565,8 @@ def scrap():
             mn = ebay(product_name, price, price2) + ', ' +amazon(product_name, price, price2)
 
             import smtplib   #mail
-            gmailaddress = 'divyamdogra@gmail.com'
-            gmailpassword = 'qpmdybxutdoygrhf'
+            gmailaddress = ''
+            gmailpassword = ''
             mailto = mail
             sub = 'Recommendation Result'
             body = mn
